@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+
+}
+
+.container .heading{
+    width: 80%;
+    padding-bottom: 50px;
+    background-color: aqua;
+    
+    /* px: 10%; */
+    
+
+}
+.container .heading h3{
+    font-size: 3em ;
+    font-weight: bolder;
+    padding: bottom 10px; ;
+    border-bottom: 3px solid #222;
+
+}
+
+.container .heading h3 span{
+    
+    font-weight: 100;
+  }
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.container .box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+.container .box .dream img{
+    width: 100%;
+    padding-bottom: 15px;
+    border: radius 5px; ;
+}
+.container .btn{
+    margin: 40px 0 70px 0;
+    background:#222;
+    padding: 15px 40px;
+    border-radius: 5%;
+}
+
+.container .btn a{
+    color:#fff;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    
+}
+@media only screen and(max-width: 769px){
+    .container.box{
+    flex-direction: column;
+    justify-content: space-between;
+    }  
+}
+body{
+    margin:0%;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+   list-style-type: none;
+   background-color: hsl(0, 0%, 25%);
+   padding: 0px;
+   margin: 0px;
+   overflow:hidden ;
+}
+.navbar a{
+   color: white; 
+   text-decoration: none;
+   padding: 15px;
+   display: block;
+   text-align: center;
+
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%); 
+}
+.navbar li{
+    float: right;
+}
+.imgdiv{
+    position: relative;
+}
+.imgtxt{
+    position: absolute;
+    font-size: x-large;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 25px;
+    left: 0px;
+    right: 0px;
+}
+.wrapper{
+width: 420px;
+height: auto;
+background: green;
+color: #fff;
+}
+ .wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+
+ }
+
+  .wrapper .input-box{
+width: 100px;
+height: 40px;
+margin: 30px;
+}
+ .input-box input{
+    width: 100px;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255);
+border-radius: 40px;
+
+ }
+ 
+

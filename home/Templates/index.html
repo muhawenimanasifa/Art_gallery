@@ -1,0 +1,98 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galery</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h3>Photo <span>Gallery</span></h3>
+        <nav class="navbar">
+          <ul>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="product.html">Product</a>
+            <a href="contact.html">Contact</a>
+            <a href="Login.html"> Login</a>
+          </ul>
+        </nav>
+        <main>
+          <h3>
+            This is our gallery art shop you come and see what we design and you
+            chosse mot welcome!
+          </h3>
+          <p>our product sold in online</p>
+        </main>
+      </div>
+      <div class="box">
+        <div class="dream">
+          <div class="imgdiv">
+            <img src="{% static 'one.jpg' %}" />
+            <p class="imgtxt">welcome</p>
+          </div>
+          <div class="imgdiv">
+            <img src="{% static 'two.jpg' %}" />
+            <p class="imgtxt">Artist drawing</p>
+          </div>
+          <div class="imgdiv">
+            <img src="{% static 'three.jpg' %}" />
+            <p class="imgtxt">drowed in Italia</p>
+          </div>
+          <div class="imgdiv">
+            <img src="{% static 'four.jpg' %}" />
+            <p class="imgtxt">drowed in somalia</p>
+          </div>
+          <div class="imgdiv">
+            <img src="{% static 'five.jpg' %}" />
+          </div>
+        </div>
+        <div class="dream">
+          <div class="imgdiv">
+            <img src="{% static 'six.jpg' %}" />
+          </div>
+          <div class="imgdiv">
+            <img src="{% static 'seven.jpg' %}" />
+          </div>
+          <div>
+            <img src="{% static 'eight.jpg' %}" />
+          </div>
+          <div>
+            <img src="{% static 'nine.jpg' %}" />
+          </div>
+          <div>
+            <img src="{% static 'ten.jpg' %}" />
+          </div>
+        </div>
+        <div class="dream">
+          <div>
+            <img src="{% static 'eleven.jpg' %}" />
+          </div>
+          <div>
+            <img src="{% static 'twelve.jpg' %}" />
+          </div>
+          <div>
+            <img src="{% static 'thirteen.jpg' %}" />
+          </div>
+          <div>
+            <img src="{% static 'fourteen.jpg' %}" />
+          </div>
+          <div>
+            <img src="{% static 'fifteen.jpg' %}" />
+          </div>
+        </div>
+      </div>
+      <div class="btn">
+        <a href="#">More</a>
+      </div>
+    </div>
+    <script>
+      // This is my first javascript code!
+      console.log("our Art");
+    </script>
+  </body>
+</html>
